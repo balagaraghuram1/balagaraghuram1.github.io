@@ -1,143 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google verification: keep inside the ONE <head> -->
-  <meta name="google-site-verification" content="5yXdPyNMZ4Ngh8vauMLlfLflK9IAFHWeHW0b21A3gB8" />
-
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <meta name="description" content="Cambridge Conference Visit - Balaga Raghuram" />
-  <meta name="keywords" content="Cambridge, Data Analytics Conference, Balaga Raghuram, Research, Data Science, Statistics" />
-  <meta name="author" content="Balaga Raghuram" />
-  
-  <!-- Redirect to new GitHub profile after 3 seconds -->
-  <meta http-equiv="refresh" content="3; url=https://balagaraghuram1.github.io/cambridge-conference.html">
-  <link rel="canonical" href="https://balagaraghuram1.github.io/cambridge-conference.html">
-
-  <title>Cambridge Conference Visit and Campus Experience</title>
-
+  <title>Redirecting to New Site...</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 100px;
       background-color: #f4f4f4;
-      margin: 0;
-      padding: 20px;
     }
-    .redirect-banner {
-      background-color: #ff9800;
-      color: white;
-      padding: 15px;
-      text-align: center;
-      position: fixed;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 1000;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    .message {
+      background: white;
+      padding: 40px;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
     }
-    .redirect-banner a {
-      color: white;
-      text-decoration: underline;
-      font-weight: bold;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 10px 0;
-      text-align: center;
-      margin-top: 60px;
-    }
-    article {
-      background-color: white;
-      padding: 20px;
-      margin: 20px auto;
-      max-width: 800px;
-      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-    }
-    h1, h2 { color: #333; }
-    p { line-height: 1.6; }
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-      margin: 20px 0;
-    }
-    figure { margin: 20px 0; text-align: center; }
-    figcaption {
-      font-style: italic;
-      font-size: 0.9em;
-      color: #666;
-    }
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      font-size: 0.9em;
-      color: #777;
-    }
+    a { color: #0066cc; font-weight: bold; }
   </style>
 </head>
-
 <body>
-  <!-- Redirect Banner -->
-  <div class="redirect-banner">
-    ⚠️ This site has moved! Redirecting to <a href="https://balagaraghuram1.github.io/cambridge-conference.html">balagaraghuram1.github.io</a> in 3 seconds...
+  <div class="message">
+    <h1>🔄 Site Moved</h1>
+    <p>Redirecting to <strong>balagaraghuram1.github.io</strong>...</p>
+    <p>If not redirected, <a href="#" id="link">click here</a></p>
   </div>
-
-  <header>
-    <h1>Cambridge Conference Visit and Campus Experience</h1>
-  </header>
-
-  <article>
-    <h2>Conference Participation and Research Discussions</h2>
-    <p>
-      On September 23, 2024, I had an amazing opportunity to participate in the
-      <strong>Cambridge University Data Analytics Conference</strong>.
-      The event showcased creative and groundbreaking research in diverse areas including
-      sustainable food systems, machine learning applications for early dementia prediction,
-      RNA sequential data analysis, and advancements in data analytics and machine learning in medicine.
-    </p>
-
-    <h2>Meeting Remarkable Researchers</h2>
-    <p>
-      One of the most rewarding aspects of the conference was the chance to meet remarkable researchers,
-      many of whom were awarded the <strong>ECR Seed Fund</strong>.
-      Their innovative work and discussions provided invaluable insights and inspiration for future research collaborations.
-    </p>
-
-    <figure>
-      <img
-        src="https://raw.githubusercontent.com/balagaraghuram/balagaraghuram.github.io/main/00000IMG_00000_BURST20240923145810_COVER.jpg"
-        alt="Balaga Raghuram at Cambridge University"
-        loading="lazy"
-      />
-      <figcaption>
-        At the University of Cambridge during the Data Analytics Conference, September 23, 2024.
-      </figcaption>
-    </figure>
-
-    <h2>Exploring the Cambridge Campus</h2>
-    <p>
-      In addition to the enriching conference, I had the pleasure of exploring the beautiful Cambridge University campus.
-      I visited several historic and significant locations, including the labs, which are home to cutting-edge research facilities.
-      It was an amazing experience, and I would love to participate in future Cambridge events.
-      A heartfelt thanks to the University of Cambridge for this opportunity.
-    </p>
-  </article>
-
-  <footer>
-    <p>
-      &copy; 2024 Balaga Raghuram |
-      <a href="https://github.com/balagaraghuram1" rel="noopener" target="_blank">GitHub Profile</a> |
-      <a href="https://balagaraghuram1.github.io/">Home</a>
-    </p>
-  </footer>
   
   <script>
-    // JavaScript backup redirect after 3 seconds
-    setTimeout(function() {
-      window.location.href = "https://balagaraghuram1.github.io/cambridge-conference.html";
-    }, 3000);
-  </script>
-</body>
-</html>
+    var path = window.location.pathname;
+    var hash = window.location.hash;
+    var search = window.location.search;
+    var newUrl = "https://balagaraghuram1.github.io" + path + search + hash;
+    document.getElementById('link').href = newUrl;
+    window.location.replace(newUrl);
+  </sc
